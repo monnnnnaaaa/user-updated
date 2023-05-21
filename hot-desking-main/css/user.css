@@ -1,0 +1,65 @@
+:root{
+    --box-radius: 20px;
+    --button-radius: 36px;
+    --poppins: 'Poppins', sans-serif;
+    --dark: #342E37;
+    --light: #f9f9f9;
+    --red: #DB504A;
+    --green: #299c55;
+}
+
+*{
+    font-style: var(--poppins);
+}
+
+body.dark {
+	--light: #0C0C1E;
+	--grey: #060714;
+	--dark: #FBFBFB;
+}  
+
+.Appt-content {
+    margin-top: 30px;
+    color: var(--dark);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.Appt {
+    color: var(--dark);
+    padding: 34px;  
+    border-radius: var(--box-radius);
+    margin-bottom: 20px;
+    box-shadow: 1px 20px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(213, 207, 207, 0.386);
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--light);
+
+
+}
+
+
+.Appt .del .btn {
+    margin-top: 10px;
+    padding: 8px 25px;
+    border-radius: var(--button-radius);
+    text-align: center;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    cursor: pointer;
+}
+
+.Appt .del .btn-1 {
+    border: none;
+    padding: 8px 32px;
+    border-radius: var(--button-radius);
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+
+}

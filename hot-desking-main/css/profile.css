@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.nav-btn {
+  display: flex;
+}
+
+.nav-btn ul {
+  display: flex;
+  list-style: none;
+  margin-right: 1040px;
+}
+
+.nav-btn li {
+  margin-left: 70px;
+}
+
+.nav-btn img {
+  height: 40px;
+}
+
+.click {
+  height: 50px;
+  width: 50px;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.click,
+.links {
+  transition: 0.5s;
+}
+
+.list {
+  position: absolute;
+  right: 22px;
+  top: 60px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.5s;
+  border: 2px black;
+}
+
+.links {
+  display: flex;
+  width: 65px;
+  padding: 12px;
+  margin: 2px;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+.newlist {
+  transform: scaleY(1);
+}
+
+.links:hover {
+  transform: scale(1.1);
+}
+
+#lg {
+  height: 70px;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+
+.main-container{
+  margin-top: 100px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+/* 
+#profile {
+  display: flex;
+  list-style: none;
+} */
+
+.profile-container img {
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+  width: 25%;
+  font-weight: 600;
+  transition: .3s;
+}
+
+button:hover{
+  background-color: #3256e7;
+  transform: translateY(-5px);
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+#notif {
+  height: 25px;
+}
+
+.top-header h1 {
+  font-size: 30px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 50px;
+}
+
+.infos input {
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 18px;
+  width: 70%;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid rgba(128, 128, 128, 0.392);
+}
+
+.infos h3 {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 18px;
+}
+
+#zip {
+  width: 20%;
+}
+
+#cp {
+  height: 40px;
+  width: 120px;
+  font-weight: 600;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.btn-below {
+  display: flex;
+  padding: 25px;
+  align-self: flex-end;
+}
+
+.btn-below button {
+  width: 200px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1440px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  div.nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+  }
+
+  .nav-btn {
+    display: flex;
+  }
+
+  .nav-btn ul {
+    display: flex;
+    list-style: none;
+    margin-right: 600px;
+  }
+
+  .nav-btn li {
+    margin-left: 70px;
+  }
+
+  .nav-btn img {
+    height: 40px;
+  }
+
+  .click {
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    border-radius: 50%;
+  }
+
+  .click,
+  .links {
+    transition: 0.5s;
+  }
+
+  .list {
+    position: absolute;
+    right: 22px;
+    top: 60px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.5s;
+    border: 2px black;
+  }
+
+  .links {
+    display: flex;
+    width: 65px;
+    padding: 12px;
+    margin: 2px;
+  }
+
+  .click:hover {
+    cursor: pointer;
+  }
+
+  .newlist {
+    transform: scaleY(1);
+  }
+
+  .links:hover {
+    transform: scale(1.1);
+  }
+
+  #lg {
+    height: 70px;
+    padding-left: 30px;
+    margin-right: 10px;
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #profile {
+    display: flex;
+    list-style: none;
+  }
+
+  .profile-container img {
+    width: 40px;
+    height: 40px;
+  }
+}
